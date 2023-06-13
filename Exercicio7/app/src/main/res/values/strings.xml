@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exercicio 7</string>
+    <string name="preto">Preto</string>
+    <string name="azul">Azul</string>
+    <string name="verde">Verde</string>
+    <string name="vermelho">Vermelho</string>
+    <string name="amarelo">Amarelo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

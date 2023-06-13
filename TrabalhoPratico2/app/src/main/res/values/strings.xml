@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Trabalho Pratico 2</string>
+    <string name="add">Adicionar Item</string>
+    <string name="item">Item</string>
+    <string name="adicionar">ADICIONAR</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="edit">Editar Item</string>
+    <string name="delete">Deletar Item</string>
+    <string name="editar">EDITAR</string>
+    <string name="deletar">DELETAR</string>
+</resources>

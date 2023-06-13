@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonsFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btPreto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preto"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btAzul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/azul"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verde"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btVermelho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vermelho"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btAmarelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amarelo"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</FrameLayout>

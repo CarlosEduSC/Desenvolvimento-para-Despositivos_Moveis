@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Exercicio 1</string>
+    <string name="name">Nome</string>
+    <string name="email">Email</string>
+    <string name="cpf">CPF ou CNPJ</string>
+    <string name="telefone">Telefone</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+    <string name="orcamento">Orcamento</string>
+    <string name="midias">Midias sociais</string>
+    <string name="tiktok">Tiktok</string>
+    <string name="instagram">Instagram</string>
+    <string name="youtube">Youtube</string>
+    <string name="facebook">Facebook</string>
+    <string name="arquivos">Arquivos</string>
+    <string name="video1">Vídeo 1</string>
+    <string name="foto1">Foto 1</string>
+    <string name="video2">Video 2</string>
+    <string name="foto2">Foto 2</string>
+    <string name="categorias">Categorias</string>
+    <string name="sertanejo">Sertanejo</string>
+    <string name="limpar">LIMPAR</string>
+    <string name="confirmar">CONFIRMAR</string>
+</resources>

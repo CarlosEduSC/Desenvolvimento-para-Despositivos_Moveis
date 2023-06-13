@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/roxo"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="371dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="24dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="357dp"
+        android:text="@string/email"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nome" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="373dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <EditText
+            android:id="@+id/cidade"
+            android:layout_width="0dp"
+            android:layout_height="27dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:background="@color/white" />
+
+        <EditText
+            android:id="@+id/estado"
+            android:layout_width="0dp"
+            android:layout_height="27dp"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="373dp"
+        android:layout_height="19dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:text="@string/cidade"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:text="@string/estado"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="371dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/orcamento"
+        android:layout_width="371dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="326dp"
+        android:text="@string/orcamento"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/orcamento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="371dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/cpf"
+            android:layout_width="0dp"
+            android:layout_height="27dp"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:background="@color/white"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="203dp" />
+
+        <EditText
+            android:id="@+id/telefone"
+            android:layout_width="0dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="336dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <ImageView
+            android:id="@+id/imgYoutube"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/free_youtube_logo_icon_2431_thumb"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="413dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/youtube"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imgFacebook"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/fb_icon_325x325"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="413dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/facebook"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <ImageView
+            android:id="@+id/imgTiktok"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/_91ce4d672698bde844440d5839ddd67_c5_720x720_removebg_preview"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="413dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/tiktok"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imgInstagram"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/pngtree_instagram_icon_png_image_6315974"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="413dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/instagram"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/midias"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orcamento" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="373dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:text="@string/cpf"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:text="@string/telefone"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="338dp"
+        android:text="@string/arquivos"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="49dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <ImageView
+            android:id="@+id/imgVideo1"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/_179069"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="647dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/video1"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imgFoto1"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/image_outline_filled"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="647dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/foto1"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="134dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <ImageView
+            android:id="@+id/imgVideo2"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/_179069"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="647dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/video2"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imgFoto2"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/image_outline_filled"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="647dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/foto2"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btLimpar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:backgroundTint="@color/blue"
+            android:text="@string/limpar" />
+
+
+        <Button
+            android:id="@+id/btConfirmar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:backgroundTint="@color/blue"
+            android:text="@string/confirmar" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
